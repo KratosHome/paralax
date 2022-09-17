@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import './App.css';
 
 function App() {
@@ -18,9 +18,8 @@ function App() {
     }, [offset]);
 
 
-
     return (
-        <div className="wrapper" >
+        <div className="wrapper">
             <div className="content">
 
                 <header className="main-header">
